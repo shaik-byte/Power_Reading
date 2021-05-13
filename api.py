@@ -1,7 +1,7 @@
 from flask import Flask, request
 import pymysql
 from flask import jsonify, json
-
+# This function does takes the connection between the DataBase and our API
 def startdb():
     # print("db connect")
     return pymysql.connect("localhost", "root", "******", "*********")
