@@ -8,7 +8,8 @@ def startdb():
 
 app = Flask(__name__)
 
-print("meter readings are visable")
+print("2 * 2")
+print("hi there")
 
 @app.route('/energymeter', methods=['POST'])
 def addhardness():
