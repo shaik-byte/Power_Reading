@@ -8,7 +8,7 @@ def startdb():
 
 app = Flask(__name__)
 
-
+Print(app)
 
 @app.route('/energymeter', methods=['POST'])
 def addhardness():
